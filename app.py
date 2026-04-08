@@ -4,7 +4,7 @@ import openai
 # Set up the page
 st.set_page_config(page_title="Task Breakdown Assistant", layout="centered")
 st.title("🧠 Micro-Task Breakdown Assistant")
-st.write("Enter a task—anything from 'take a shower' to 'organize a quilting bee for local sapphics within 50 miles'—and we'll break it down into executive-dysfunction-friendly micro-steps.")
+st.write("Got a task? Enter anything from 'take a shower' to 'organize a local sapphic quilting bee.' This tool will instantly generate a free downloadable, executive-dysfunction-friendly list of micro-steps.")
 
 # Securely grab the OpenAI API key
 openai.api_key = st.secrets["OPENAI_API_KEY"]
