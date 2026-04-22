@@ -7,7 +7,7 @@ st.title("🧠 Micro-Task Breakdown Assistant")
 st.write("Got a task? Enter anything from 'take a shower' to 'organize a local sapphic quilting bee.' This tool will instantly generate a free downloadable, executive-dysfunction-friendly list of micro-steps.")
 
 # Securely grab the OpenAI API key
-openai.api_key = st.secrets["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"]
+openai.api_key = st.secrets["OPENAI_API_KEY"]
 
 # The input box for the user
 task_input = st.text_area("What do you need to get done?", placeholder="Type your task here...")
